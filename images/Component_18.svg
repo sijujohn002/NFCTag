@@ -1,0 +1,27 @@
+<svg id="Component_18_1" data-name="Component 18 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="13.895" viewBox="0 0 22 13.895">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_182" data-name="Path 182" d="M2.479-13l3.732-5.683L5.562-19.5,1-12.553,5.562-5.605l.649-.817L2.548-12H23v-1Z" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_14" data-name="Rectangle 14" width="24" height="24" transform="translate(0 -24)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Path_181" data-name="Path 181" d="M0-24H24V0H0Z" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <path id="Path_180" data-name="Path 180" d="M0-5H23V-20H0Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_274" data-name="Group 274" transform="translate(-1 19.5)" clip-path="url(#clip-path)">
+    <g id="Group_273" data-name="Group 273" style="isolation: isolate">
+      <g id="Group_272" data-name="Group 272" clip-path="url(#clip-path-2)">
+        <g id="Group_271" data-name="Group 271" clip-path="url(#clip-path-3)">
+          <g id="Group_270" data-name="Group 270" clip-path="url(#clip-path-4)">
+            <path id="Path_179" data-name="Path 179" d="M-5-29H29V5H-5Z" fill="#131312"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

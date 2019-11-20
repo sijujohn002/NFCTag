@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>NFC</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- <link rel="stylesheet" type="text/css" href="./css/slick-theme.css"/>
+  <link rel="stylesheet" type="text/css" href="./css/slick.css"/> -->
+
+</head>
+<body>
+
+    
+
+     
+
+          <div class="container p-0 bg-colorfff" id="card-details">
+              <div class="bucks-main">
+                  <div class="tap-header">
+                      <img src="./images/Component 18 ΓÇô 1.svg" class="arrow-icon" alt="img"/>
+                    </div>
+                  <div class="starbucks">
+                      <div class="bucks-badges">Starbucks</div>
+                      <div class="price">$ 18.25</div>
+                  </div>
+                    <div class="payment-type">
+                        <div class="payment">
+                            <div class="right-arrow"><img class="arrow-img" src="./images/Component_18.svg" alt="img"/>
+                             <span>Make Payment</span>
+                           </div>
+                           <div class="card-rounded"><span class="round1"></span>
+                             <span class="round2"></span>
+                             </div>
+                          </div>
+
+                          <div class="wrapper">
+                          <div class="carousel">
+                              <div class="cont">
+                                <div class="add-card">
+                                  <img src="./images/Add.svg" alt="img" class="add-img">
+                                 
+                                </div>
+                              </div>
+                             
+                              <div class="cont">
+                                <div class="card-images">
+                                    <img src="./images/mastercard.svg">
+                                    <div class="account-no">
+                                       ****123455</span>
+                                       </div>
+                                </div>
+                               
+                              </div>
+                              <div class="cont">
+                                  <div class="card-images">
+                                      <img src="./images/Visa.svg">
+                                   
+                                  </div>
+                                
+                                  </div>
+                              <div class="cont">
+                                  <div class="card-images">
+                                      <img src="./images/credit-card.svg">
+                                     
+                                  </div>
+                              
+                                  </div>
+                     
+                            </div>
+                          </div>
+                            <div class="flex-div">
+                                <button class="btn proceed-btn">Proceed</button>
+                            </div>
+                            
+                    </div>
+                  
+              </div>
+              
+              </div>
+
+
+              <div class="container p-0 bg-colorfff" id="payment-completed">
+                  <div class="bucks-main">
+                      <div class="tap-header">
+                          <img src="./images/Component_18.svg" class="arrow-icon" alt="img"/>
+                        </div>
+                      <div class="starbucks">
+                          <div class="bucks-badges">Starbucks</div>
+                          <div class="price">$ 18.25</div>
+                      </div>
+                        <div class="payment-type">
+                            <div class="payment">
+                                <div class="right-arrow">
+                                 <span>Make Completed</span>
+                               </div>
+                               <div class="card-rounded"><span class="round1"></span>
+                                 <span class="round2"></span>
+                                 </div>
+                              </div>
+    <div class="payment-complete">
+<img src="./images/Completed.svg" alt="img" class="complete-img">
+    </div>
+                            
+                                <div class="flex-div">
+                                    <button class="btn close-btn">Close</button>
+                                </div>
+                                
+                        </div>
+                      
+                  </div>
+                  
+                  </div>
+
+
+
+                
+          <script type="text/javascript" src="./js/jquery-3.3.1.slim.min.js"></script>
+          <!-- <script type="text/javascript" src="./js/jquery-migrate-1.2.1.min.js"></script>
+          <script type="text/javascript" src="./js/slick.min.js"></script> -->
+          
+   
+     
+      <script>
+$(document).ready(function(){
+  $('.slider-class').slick('unslick').slick('reinit').slick();
+  $('.carousel').slick({
+    
+  dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+
+  ]
+});
+
+});
+
+
+      $(function() {
+
+   
+
+
+
+
+
+$('#Tap-topay').click(function(){
+$('#tap-on-phone').hide();
+$('#card-details').show();
+});
+$('.proceed-btn').click(function(){
+  $('#card-details').hide();
+$('#payment-completed').show();
+});
+
+
+$(".progress").each(function() {
+
+  var value = $(this).attr('data-value');
+  var left = $(this).find('.progress-left .progress-bar');
+  var right = $(this).find('.progress-right .progress-bar');
+
+  if (value > 0) {
+    if (value <= 50) {
+      right.css('transform', 'rotate(' + percentageToDegrees(value) + 'deg)')
+    } else {
+      right.css('transform', 'rotate(180deg)')
+      left.css('transform', 'rotate(' + percentageToDegrees(value - 50) + 'deg)')
+    }
+  }
+
+})
+
+function percentageToDegrees(percentage) {
+
+  return percentage / 100 * 360
+
+}
+
+
+
+});
+
+      </script>
+  
+
+</body>
+</html>

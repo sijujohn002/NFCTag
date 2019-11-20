@@ -1,0 +1,22 @@
+<svg id="Mastercard_1" data-name="Mastercard 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54.215" height="33.66" viewBox="0 0 54.215 33.66">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_174" data-name="Path 174" d="M18.189-1.171H32.733v-26.52H18.189Z" transform="translate(-18.189 27.691)" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_176" data-name="Path 176" d="M20.545-14.17A16.876,16.876,0,0,1,26.893-27.4,16.421,16.421,0,0,0,16.621-31,16.726,16.726,0,0,0,0-14.17,16.726,16.726,0,0,0,16.621,2.66a16.421,16.421,0,0,0,10.272-3.6A16.877,16.877,0,0,1,20.545-14.17" transform="translate(0 31)" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Path_178" data-name="Path 178" d="M51.3-3.742v-.653h-.169l-.193.449-.194-.449H50.58v.653H50.7v-.493l.182.425H51l.182-.426v.494Zm-1.067,0v-.542h.216v-.11H49.9v.11h.216v.542ZM51.823-14.17A16.727,16.727,0,0,1,35.2,2.659,16.42,16.42,0,0,1,24.93-.939,16.876,16.876,0,0,0,31.279-14.17,16.877,16.877,0,0,0,24.93-27.4,16.42,16.42,0,0,1,35.2-31,16.727,16.727,0,0,1,51.823-14.17Z" transform="translate(-24.93 31)" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+  </defs>
+  <g id="Group_266" data-name="Group 266" transform="translate(19.835 3.57)" clip-path="url(#clip-path)">
+    <path id="Path_173" data-name="Path 173" d="M13.189-32.691H38.521V4.726H13.189Z" transform="translate(-18.582 27.242)" fill="#ff5f00"/>
+  </g>
+  <g id="Group_267" data-name="Group 267" transform="translate(0 0)" clip-path="url(#clip-path-2)">
+    <path id="Path_175" data-name="Path 175" d="M-5-36H32.681V8.533H-5Z" transform="translate(-0.394 30.563)" fill="#eb001b"/>
+  </g>
+  <g id="Group_268" data-name="Group 268" transform="translate(27.322)" clip-path="url(#clip-path-3)">
+    <path id="Path_177" data-name="Path 177" d="M19.93-36H57.611V8.533H19.93Z" transform="translate(-25.324 30.563)" fill="#f79e1b"/>
+  </g>
+</svg>

@@ -1,0 +1,222 @@
+html,body{
+    height:100%;
+    background-color:#F4F4F4;
+}
+
+/********************************slick style starts ***************************/
+.slick-track {
+    display: flex !important;
+    align-items: stretch;
+}
+.slick-track .slick-slide:nth-child(1) {
+    border: 1px solid orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.account-no {
+    background-color: #fff;
+    margin-top: -27px;
+    float: left;
+    padding: 3px;
+    z-index: 9999;
+    border-radius: 9px 8px 0px 0px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+img.active {
+    float: left;
+    width: 25px!important;
+}
+img.active {
+    float: left;
+    width: 25px;
+}
+h2{
+    font-family:sans-serif;
+    color:#fff;
+  }
+  .carousel{
+    width:90%;
+    margin:0px auto;
+  }
+  .slick-slide{
+    margin:10px;
+    position: relative;
+  }
+  .slick-slide img{
+    width:100%;
+    border: 2px solid #fff;
+  }
+
+    .wrapper{
+        width:100%;
+        padding-top: 20px;
+        text-align:center;
+      }
+    
+    
+    img.add-img {
+        width: 100%;
+    }
+   
+/***************************** slick style ends *******************************/
+.container{
+    height: 100%;
+}
+.bg-colorfff{
+    background-color:#fff;
+}
+img.phone-img {
+    width: 35%;
+}
+
+.tap-header {
+    display: flex;
+    padding: 20px;
+}
+
+.top-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swip-card {
+    display: flex;
+    background-color: pink;
+    width: 38vh;
+    height: 38vh;
+    border-radius: 50%;
+    justify-content: space-evenly;
+}
+
+.footer-card {
+    padding: 20px;
+    display: flex;
+    box-shadow: 0px -3px 6px #C3C3C329;
+    justify-content: space-between;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+span.round1 {
+    height: 30px;
+    width: 30px;
+    background-color: #CE4400;
+    float: right;
+    border-radius: 50%;
+}
+
+span.round2 {
+    height: 30px;
+    width: 30px;
+    background-color: #CE4400;
+    float: right;
+    border-radius: 50%;
+    margin-right: -12px;
+}
+.bucks-main {
+    background-color: #F4F4F4;
+    height: 100%;
+}
+.bucks-main {
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.starbucks {
+    text-align: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bucks-badges {
+    background-color: pink;
+    border-radius: 20px;
+    width: 33%;
+    margin: 0 auto;
+    padding: 6px;
+}
+
+.price {
+    font-size: 45px;
+}
+.payment {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 10px;
+}
+.payment-complete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.payment-type {
+    background-color: #fff;
+    border-radius: 20px 20px 0px 0px;
+
+    flex: 1;
+}
+
+#payment-completed{
+    display: none;
+}
+button.btn.proceed-btn, .close-btn {
+    border: 0px;
+    background-color: #CE4400;
+    color: #fff;
+    padding: 10px 55px;
+    border-radius: 25px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.card-details{
+    display: none;;
+}
+
+
+
+
+.carousel .cont {
+    float: left;
+    width: 25%;
+    margin-right: 15px;
+}
+.carousel {
+    width: 100%;
+    margin: 0px auto;
+    float: left;
+    overflow-x: auto;
+}
+.flex-div {
+    display: flex;
+    justify-content: center;
+    float: left;
+    width: 100%;
+    position: absolute;
+    bottom: 15px;
+}
+.add-card {
+    border: 1px dotted orange;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+img.add-img {
+    width: 60%;
+}
