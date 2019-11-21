@@ -6,210 +6,127 @@
   <title>NFC</title>
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/style.css">
-  <!-- <link rel="stylesheet" type="text/css" href="./css/slick-theme.css"/>
-  <link rel="stylesheet" type="text/css" href="./css/slick.css"/> -->
+
 
 </head>
 <body>
 
+ 
+
+    <div class="add-product-section" id="without-amount">
+        
+        <div class="marchent-section">
+            <div class="marchent-details">
+                <div>Brillio</div>
+                <div>Bell, Los Angeles County</div>
+                <div>US - 90201</div>
+            </div>
+            <span class="starbucks">Total</span>
+            <div class="amount-text"><input type="text" value="$ 18.25"> </div>
+        </div>
+      
     
-
-     
-
-          <div class="container p-0 bg-colorfff" id="card-details">
-              <div class="bucks-main">
-                  <div class="tap-header">
-                      <img src="./images/Component 18 ΓÇô 1.svg" class="arrow-icon" alt="img"/>
-                    </div>
-                  <div class="starbucks">
-                      <div class="bucks-badges">Starbucks</div>
-                      <div class="price">$ 18.35</div>
-                  </div>
-                    <div class="payment-type">
-                        <div class="payment">
-                            <div class="right-arrow">
-                             <span>Make Payment ---------</span>
-                           </div>
-                           <div class="card-rounded"><span class="round1"></span>
-                             <span class="round2"></span>
-                             </div>
-                          </div>
-
-                          <div class="wrapper">
-                          <div class="carousel">
-                              <div class="cont">
-                                <div class="add-card">
-                                  <img src="./images/Add.svg" alt="img" class="add-img">
-                                 
-                                </div>
-                              </div>
-                             
-                              <div class="cont">
-                                <div class="card-images">
-                                    <img src="./images/mastercard.svg">
-                                    <div class="account-no">
-                                       ****123455</span>
-                                       </div>
-                                </div>
-                               
-                              </div>
-                              <div class="cont">
-                                  <div class="card-images">
-                                      <img src="./images/Visa.svg">
-                                   
-                                  </div>
-                                
-                                  </div>
-                              <div class="cont">
-                                  <div class="card-images">
-                                      <img src="./images/credit-card.svg">
-                                     
-                                  </div>
-                              
-                                  </div>
-                     
-                            </div>
-                          </div>
-                            <div class="flex-div">
-                                <button class="btn proceed-btn">Proceed</button>
-                            </div>
-                            
-                    </div>
-                  
-              </div>
-              
-              </div>
-
-
-              <div class="container p-0 bg-colorfff" id="payment-completed">
-                  <div class="bucks-main">
-                      <div class="tap-header">
-                          <img src="./images/Component_18.svg" class="arrow-icon" alt="img"/>
-                        </div>
-                      <div class="starbucks">
-                          <div class="bucks-badges">Starbucks</div>
-                          <div class="price">$ 18.35</div>
-                      </div>
-                        <div class="payment-type">
-                            <div class="payment">
-                                <div class="right-arrow">
-                                 <span>Make Completed</span>
-                               </div>
-                               <div class="card-rounded"><span class="round1"></span>
-                                 <span class="round2"></span>
-                                 </div>
-                              </div>
-    <div class="payment-complete">
-<img src="./images/Completed.svg" alt="img" class="complete-img">
-    </div>
-                            
-                                <div class="flex-div">
-                                    <button class="btn close-btn">Close</button>
-                                </div>
-                                
-                        </div>
-                      
-                  </div>
-                  
-                  </div>
-
-
-
-                
-          <script type="text/javascript" src="./js/jquery-3.3.1.slim.min.js"></script>
-          <!-- <script type="text/javascript" src="./js/jquery-migrate-1.2.1.min.js"></script>
-          <script type="text/javascript" src="./js/slick.min.js"></script> -->
+    <div class="payment-section" id="add-product">
+       
           
-   
-     
-      <script>
-$(document).ready(function(){
-  $('.slider-class').slick('unslick').slick('reinit').slick();
-  $('.carousel').slick({
+          
+           <div class="payment-card-footer">
+              <button class="btn add-to-card" id="add">Pay</button>
+          </div>
+    </div>
+        </div>
+
+
+        <div class="add-product-section" id="with-amount">
+        
+            <div class="marchent-section">
+                <div class="marchent-details">
+                    <div>Brillio</div>
+                    <div>Bell, Los Angeles County</div>
+                    <div>US - 90201</div>
+                </div>
+                <span class="starbucks">Total</span>
+                <div class="amount-text">$ 18.25 </div>
+            </div>
+          
+        
+        <div class="payment-section" id="add-product">
+            <div class="make-payment">
+                <div class="payment-left-div">
+                   <img src="./images/Component_18.svg" class="back-arrowy"/>Add Product
+                </div> 
+                 <div class="payment-right-div">
+                   <img src="./images/Mastercard 2.svg" alt="img" class="master-card-img"/>
+                 </div>
+               </div>
+               <div class="completed-product">
+                <div class="qty-row">
+                  <div class="left-div">Woodland</div><div class="right-div">$ 18.25</div>
+                </div>
+                <div class="qty-row">
+                    <div class="left-div">Lorem Ipsum</div><div class="right-div"></div>
+                  </div>
     
-  dots: true,
-  infinite: false,
-  speed: 300,
-  slidesToShow: 4,
-  slidesToScroll: 4,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
+                  <div class="qty-row">
+                      <div class="left-div">QTY 
+                        <div class="add-qty"><span class="qty">-</span>01<span class="qty">+</span> </div>
+                    </div>
+                    <div class="right-div">$ 18.25</div>
+                    </div>
+             
+               </div>
+              
+               <div class="payment-card-footer">
+                  <button class="btn add-to-card" id="add">Pay</button>
+              </div>
+        </div>
+            </div>
 
-  ]
+
+    <script type="text/javascript" src="./js/jquery-3.3.1.slim.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.add-remove').slick({
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  arrows: false
+});
+$('.js-add-slide').on('click', function() {
+  slideIndex++;
+  $('.add-remove').slick('slickAdd','<div><h3>' + slideIndex + '</h3></div>');
 });
 
+$('.js-remove-slide').on('click', function() {
+  $('.add-remove').slick('slickRemove',slideIndex - 1);
+  if (slideIndex !== 0){
+    slideIndex--;
+  }
 });
 
 
-      $(function() {
 
-   
-
-
-
-
-
-$('#Tap-topay').click(function(){
-$('#tap-on-phone').hide();
-$('#card-details').show();
-});
-$('.proceed-btn').click(function(){
-  $('#card-details').hide();
+$('#proceed').click(function(){
+$('#payment-cards').hide();
 $('#payment-completed').show();
 });
 
-
-$(".progress").each(function() {
-
-  var value = $(this).attr('data-value');
-  var left = $(this).find('.progress-left .progress-bar');
-  var right = $(this).find('.progress-right .progress-bar');
-
-  if (value > 0) {
-    if (value <= 50) {
-      right.css('transform', 'rotate(' + percentageToDegrees(value) + 'deg)')
-    } else {
-      right.css('transform', 'rotate(180deg)')
-      left.css('transform', 'rotate(' + percentageToDegrees(value - 50) + 'deg)')
-    }
-  }
-
+$('.make-payment').click(function(){
+  $('#payment-cards').show();
+  $('#payment-completed').hide();
 })
-
-function percentageToDegrees(percentage) {
-
-  return percentage / 100 * 360
-
-}
-
-
+$('#close').click(function(){
+$('.lading-page').show();
+$('.main-section').hide();
+ 
+$('.top-to-scan').click(function(){
+  $('.main-section').show();
+  $('.lading-page').hide();
+});
 
 });
 
-      </script>
+      });
   
-
+    </script>
 </body>
 </html>
