@@ -21,11 +21,11 @@ span.starbucks {
     border-radius: 14px;
     color: #131312;
     font-size: 12px;
-    padding: 4px 25px; 
+    padding: 4px 25px;
 }
 
 .amount-text {
-    font-size: 48px;
+    font-size: 24px;
     padding-top: 20px;
 }
 .payment-section {
@@ -170,18 +170,22 @@ img.swip-mechine {
     border-radius: 20px;
     border: 1px solid gray;
     padding: 7px 5px;
-}
+}   
 
-span.qty {
+button.qty {
     color: #CE4400;
     font-size: 25px;
     padding: 8px;
-}
-.amount-text input {
-    text-align: CENTER;
     background-color: transparent;
     border: 0px;
-    width: 100%;
+    outline: none;
+}
+.amount-text input {
+    text-align: center;
+    border: 0px;
+    width: 80%;
+    outline: none;
+    margin-left: 15px;
 }
 .marchent-details {
     padding: 10px;
@@ -194,4 +198,9 @@ span.qty {
 }
 #without-amount{
     display: none;
+}
+div#back-page {
+    color: #819A4D;
+    font-weight: BOLD;
+    font-size: 16px;
 }
