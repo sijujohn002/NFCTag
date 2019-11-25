@@ -9,11 +9,8 @@ html,body{
     height: 40%;
     float: left;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     background-color: #F4F4F4;
+    overflow-y: auto;
 }
 
 span.starbucks {
