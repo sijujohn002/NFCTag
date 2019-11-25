@@ -148,12 +148,13 @@ img.swip-mechine {
     float: left;
     width: 100%;
     height: 100%;
+    overflow-y: auto;
 }
 .qty-row {
     float: left;
     width: 100%;
     border-bottom: 1px solid #f3f2f2;
-    padding: 10px 10px;
+    padding: 10px 15px;
 }
 
 .left-div {
@@ -179,7 +180,7 @@ button.qty {
     background-color: transparent;
     border: 0px;
     outline: none;
-}
+} 
 .amount-text input {
     text-align: center;
     border: 0px;
@@ -203,4 +204,23 @@ div#back-page {
     color: #819A4D;
     font-weight: BOLD;
     font-size: 16px;
+}
+.payment-method {
+    float: left;
+    width: 100%;
+    border-top: 1px solid #e7e7e7;
+}
+.payment-text {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.payment-options ul li {
+    list-style-type: none;
+    line-height: 25px;
+}
+
+.payment-options ul {
+    padding-left: 20px;
 }

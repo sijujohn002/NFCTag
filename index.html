@@ -6,8 +6,7 @@
   <title>NFC</title>
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/style.css">
-
-
+  
 </head>
 <body>
 
@@ -29,7 +28,17 @@
     <div class="payment-section" id="add-product">
        
           
-          
+        <div class="payment-method">
+            <div class="payment-text">Select Payment Method</div>
+            <div class="payment-options">
+              <ul>
+                  <li><input type="radio" name="gender" value="debit" id="debit" checked>  <label for="debit">Debit Card</label></li>
+                  <li><input type="radio" name="gender" value="credit" id="credit"> <label for="credit">Credit Card</label></li>
+                  <li><input type="radio" name="gender" value="net" id="net"><label for="net">Net Banking</label></li>
+              </ul>
+            </div>
+
+        </div>
            <div class="payment-card-footer">
               <button class="btn add-to-card" id="amount-added">Pay</button>
           </div>
@@ -73,7 +82,17 @@
                     </div>
              
                </div>
-              
+              <div class="payment-method">
+                  <div class="payment-text">Select Payment Method</div>
+                  <div class="payment-options">
+                    <ul>
+                        <li><input type="radio" name="gender1" value="debit" id="debit" checked>  <label for="debit">Debit Card</label></li>
+                        <li><input type="radio" name="gender1" value="credit" id="credit"> <label for="credit">Credit Card</label></li>
+                        <li><input type="radio" name="gender1" value="net" id="net"><label for="net">Net Banking</label></li>
+                    </ul>
+                  </div>
+
+              </div>
                <div class="payment-card-footer">
                   <button class="btn add-to-card" id="payment-success">Pay</button>
               </div>
@@ -115,70 +134,7 @@
 
 
     <script type="text/javascript" src="./js/jquery-3.3.1.slim.min.js"></script>
-    <script>
-      $(document).ready(function(){
-        $('#payment-success').click(function(){
-        $('#without-amount').hide();
-       $('#with-amount').hide();
-       $('#payment-completed').show();
-});
-
-
-$('#back-page').click(function(){
-       $('#without-amount').hide();
-       $('#with-amount').show();
-       $('#payment-completed').hide();
-});
-
-$('#amount-added').click(function(){
-       $('#without-amount').hide();
-       $('#with-amount').show();
-       $('#payment-completed').hide();
-});
-     
-var unit=1
-        $('.qty').click(function(){
-         
-           calculatePrice($(this).text());
-      });
-      function calculatePrice(Text){
-          if(Text === '+')
-          unit++
-          else
-          if(unit>1)
-          unit--
-          $('#unit').text(unit);
-          $('.total-price').text("$ " +unit*price); 
- 
-      }
-
-        var sPageURL = window.location.search.substring(1),
-        sURLVariables = sPageURL.split('&');
-        var price = +sURLVariables[0].split('=')[1];
-       
-     
-        
-if(price<=0){
-$('#with-amount').hide();
-$('#without-amount').show();
-var amt=$('#amount').value();
-$('.total-price').text("$ "+ (amt + price)); 
-
-}else{
-  $('#with-amount').show();
-  $('#without-amount').hide();
-  $('.total-price').text("$ "+price); 
-  $('#singleItemPrice').text("$"+price);
-}
-
-        $('.add-remove').slick({
-  slidesToShow: 3,
-  slidesToScroll: 3,
-  arrows: false
-});
-
-      });
-  
-    </script>
+    <script type="text/javascript" src="./js/custom.js"></script>
+    
 </body>
 </html>
