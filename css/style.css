@@ -33,6 +33,7 @@ span.starbucks {
     position: relative;
     min-height: 60%;
     overflow-y: scroll;
+    padding-bottom: 50px;
 }
 
 .main-section {
