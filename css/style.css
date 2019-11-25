@@ -167,6 +167,7 @@ img.swip-mechine {
 .right-div {
     float: right;
     width:25%;
+    text-align: right;
 }
 .add-qty {
     display: inline;
