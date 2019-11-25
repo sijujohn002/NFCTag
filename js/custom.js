@@ -38,47 +38,47 @@ var unit=1
           if(unit>1)
           unit--
           $('#unit').text(unit);
-          $('.total-price').text("$ " +unit*price); 
+          $('.total-price').text("$ " +unit*priceInt); 
 
           
  
       }
-
-        var sPageURL = window.location.search.substring(1),
-        sURLVariables = sPageURL.split('&');
-        var price = +sURLVariables[0].split('=')[1];
+ var locationUrl = window.location.href
+ function PareseUrl(item, text){
+     var foundString = text.match(new RegExp("[\?\&]" + item + "=([^\&]*)(\&?)","i"));
+     return foundString ? foundString[1] : foundString;
+ }
+ var data=PareseUrl('info', locationUrl);
+ var info = atob(data);
+ console.log("info data:"+info);
+ var isPrice=false
+ if(info){
+     var jsondata=JSON.parse(info)
+     if(jsondata.MTA){
+     var priceInt = parseInt(jsondata.MTA)
+     if(priceInt>0)
+     isPrice=true
+   }  
+ } 
        
-     
+ if(!isPrice){
+  $('#with-amount').hide();
+  $('#without-amount').show();
+  
+  }else{
+    $('#with-amount').show();
+    $('#without-amount').hide();
+    $('.total-price').text("$ "+priceInt); 
+    $('#singleItemPrice').text("$"+priceInt);
+  } 
         
-if(price<=0){
-$('#with-amount').hide();
-$('#without-amount').show();
-var amt=$('#amount').value();
-$('.total-price').text("$ "+ (amt + price)); 
 
-}else{
-  $('#with-amount').show();
-  $('#without-amount').hide();
-  $('.total-price').text("$ "+price); 
-  $('#singleItemPrice').text("$"+price);
-}
 
         $('.add-remove').slick({
   slidesToShow: 3,
   slidesToScroll: 3,
   arrows: false
 });
-
-
-
-
-
-
-
-
-
-
-
 
 
       });
