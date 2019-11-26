@@ -26,8 +26,56 @@
       
     
     <div class="payment-section" id="add-product">
-       
-          
+        <div class="corusoul-section">
+            <div class="container">
+             
+              <div class="box add-card"><img src="./images/icons/Add.svg"></div>
+              <div class="box visa-card"><img src="./images/icons/Visa.svg">
+                <div class="card-number"><span class="spn"></span><span class="number">*****2390</span></div>
+              </div>
+              <div class="box master-card"><img src="./images/icons/Mastercard 1.svg">
+                <div class="card-number"><span class="spn"></span><span class="number">*****2390</span></div>
+              </div>
+              <div class="box credit-card"><img src="./images/icons/Amex .svg">
+                <div class="card-number"><span class="spn"></span><span class="number">*****2390</span></div>
+              </div>
+            </div>
+      </div>
+
+
+      <div class="add-card-details">
+          <form>
+            <div class="form-group">
+              <label for="email">Card Type </label>
+           <select class="form-control">
+             <option>Creadit Card</option>
+             <option>Debit Card</option>
+           </select>
+            </div>
+            <div class="form-group">
+                <label>Card Number </label>
+                <input type="Number" class="form-control" placeholder="Enter Card Number" name="cardNumber">
+              </div>
+              <div class="form-group">
+                  <label>Cardholder Name </label>
+                  <input type="Number" class="form-control" placeholder="Enter Card Name" name="cardNumber">
+                </div>
+                <div class="form-group">
+                    <label>Expiry MM/YY  </label>
+                    <input type="Number" class="form-control month" placeholder="Month" name="cardNumber">
+                     <input type="Number" class="form-control year" placeholder="Year" name="cardNumber">
+                  </div>
+                  <div class="form-group">
+                      <label>CVV/Secure Code </label>
+                      <input type="Number" class="form-control" placeholder="CVV/Secure Code " name="cardNumber">
+                    </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+
+            <button type="submit" class="btn btn-primary cancel-btn">Cancel</button>
+          </form>
+      </div>
+
+<!--           
         <div class="payment-method">
             <div class="payment-text">Select Payment Method</div>
             <div class="payment-options">
@@ -38,7 +86,7 @@
               </ul>
             </div>
 
-        </div>
+        </div> -->
            <div class="payment-card-footer">
               <button class="btn add-to-card" id="amount-added">Pay</button>
           </div>
@@ -90,13 +138,19 @@
         <div class="container">
          
           <div class="box add-card"><img src="./images/icons/Add.svg"></div>
-          <div class="box visa-card"><img src="./images/icons/Visa.svg"></div>
-          <div class="box master-card"><img src="./images/icons/Mastercard 1.svg"></div>
-          <div class="box credit-card"><img src="./images/credit-card.svg"></div>
+          <div class="box visa-card"><img src="./images/icons/Visa.svg">
+            <div class="card-number"><span class="spn"></span><span class="number">*****2390</span></div>
+          </div>
+          <div class="box master-card"><img src="./images/icons/Mastercard 1.svg">
+            <div class="card-number"><span class="spn"></span><span class="number">*****2390</span></div>
+          </div>
+          <div class="box credit-card"><img src="./images/icons/Amex .svg">
+            <div class="card-number"><span class="spn"></span><span class="number">*****2390</span></div>
+          </div>
         </div>
   </div>
 
-              <div class="payment-method">
+              <!-- <div class="payment-method">
                   <div class="payment-text">Select Payment Method</div>
                   <div class="payment-options">
                     <ul>
@@ -106,7 +160,41 @@
                     </ul>
                   </div>
 
+              </div> -->
+
+
+              <div class="add-card-details">
+                  <form>
+                    <div class="form-group">
+                      <label for="email">Card Type </label>
+                   <select class="form-control">
+                     <option>Creadit Card</option>
+                     <option>Debit Card</option>
+                   </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Card Number </label>
+                        <input type="Number" class="form-control" placeholder="Enter Card Number" name="cardNumber">
+                      </div>
+                      <div class="form-group">
+                          <label>Cardholder Name </label>
+                          <input type="Number" class="form-control" placeholder="Enter Card Name" name="cardNumber">
+                        </div>
+                        <div class="form-group">
+                            <label>Expiry MM/YY  </label>
+                            <input type="Number" class="form-control month" placeholder="Month" name="cardNumber">
+                             <input type="Number" class="form-control year" placeholder="Year" name="cardNumber">
+                          </div>
+                          <div class="form-group">
+                              <label>CVV/Secure Code </label>
+                              <input type="Number" class="form-control" placeholder="CVV/Secure Code " name="cardNumber">
+                            </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+
+                    <button type="submit" class="btn btn-primary cancel-btn">Cancel</button>
+                  </form>
               </div>
+
 
 
               <div class="payment-card-footer">

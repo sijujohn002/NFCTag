@@ -110,9 +110,11 @@ img.completed-img {
     margin: 10px;
     display: inline-block;
     height: 100px;
-    background-color: black;
     position: relative;
     border-radius: 4px;
+}
+.box.master-card{
+    background-color:#000;
 }
 .add-card-div {
     padding: 0px;
@@ -121,6 +123,33 @@ img.completed-img {
     width: 50%;
 }
 
+.card-number {
+    position: absolute;
+    bottom: 0px;
+    background-color: #fff;
+    width: 100%;
+}
+span.active {
+    margin: 3px 3px;
+    float: left;
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+   
+}
+.box.credit-card {
+    background-color: #016FD0;
+}
+.add-card-details {
+    padding: 15px;
+    float: left;
+    display: none;
+    width: 100%;
+}
+span.number {
+    float: right;
+}
 img.swip-mechine {
     width: 25%;
 }
@@ -251,4 +280,18 @@ div#back-page {
 
 .payment-options ul {
     padding-left: 20px;
+}
+input.form-control.month {
+    float: left;
+    width: 50%;
+}
+
+input.form-control.year {
+    float: left;
+    width: 50%;
+}
+
+.add-card-details label {
+    width: 100%;
+    float: left;
 }
