@@ -1,12 +1,24 @@
 
       $(document).ready(function(){
+
+        $('.add-card').click(function(){
+            $('.add-card-details').toggle();
+            });
+$('.cancel-btn').click(function(){
+    $('.add-card-details').hide();
+});
+
+
         $('#payment-success').click(function(){
         $('#without-amount').hide();
        $('#with-amount').hide();
        $('#payment-completed').show();
 
 });
+$('.card-number').click(function(){
+$(this).children('.spn').toggleClass('active');
 
+});
 
 $('#back-page').click(function(){
        $('#without-amount').hide();
