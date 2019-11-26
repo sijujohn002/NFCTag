@@ -15,9 +15,9 @@ $('.cancel-btn').click(function(){
        $('#payment-completed').show();
 
 });
-$('.card-number').click(function(){
-$(this).children('.spn').toggleClass('active');
-
+$('.box').click(function(){
+$(this).children('.card-number').find('.spn').addClass('active');
+$(this).siblings('.box').children('.card-number').find('.spn').removeClass('active');
 });
 
 $('#back-page').click(function(){
