@@ -1,12 +1,18 @@
 
       $(document).ready(function(){
-
-        $('.add-card').click(function(){
-            $('.add-card-details').toggle();
+		  
+		  
+		  
+		  
+  $('.add-card').click(function(){
+            $('.add-card-details').show();
+            $('.spn').removeClass('active');
             });
-$('.cancel-btn').click(function(){
-    $('.add-card-details').hide();
-});
+
+            $('.master-card').click(function(){
+                $('.spn').addClass('active');
+                $('.add-card-details').hide();
+                });
 
 
         $('#payment-success').click(function(){
@@ -15,10 +21,7 @@ $('.cancel-btn').click(function(){
        $('#payment-completed').show();
 
 });
-$('.box').click(function(){
-$(this).children('.card-number').find('.spn').addClass('active');
-$(this).siblings('.box').children('.card-number').find('.spn').removeClass('active');
-});
+
 
 $('#back-page').click(function(){
        $('#without-amount').hide();
