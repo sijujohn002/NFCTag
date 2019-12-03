@@ -116,7 +116,7 @@ img.completed-img {
     border-radius: 4px;
 }
 .marchent-name {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
 }
 span.each {
@@ -251,11 +251,7 @@ sapn.qty-text{
     padding: 0px;
     text-align: center;
 }   
-.purchase-total {
-    float: left;
-    width: 100%;
-    font-size: 18px;
-}
+
 
 button.qty {
       color: #CE4400;
