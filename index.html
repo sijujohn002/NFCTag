@@ -64,24 +64,9 @@
                       <label>CVV/Secure Code </label>
                       <input type="Number" class="form-control" placeholder="CVV/Secure Code " name="cardNumber">
                     </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-
-            <button type="submit" class="btn btn-primary cancel-btn">Cancel</button>
           </form>
       </div>
 
-<!--           
-        <div class="payment-method">
-            <div class="payment-text">Select Payment Method</div>
-            <div class="payment-options">
-              <ul>
-                  <li><input type="radio" name="gender" value="debit" id="debit1" checked>  <label for="debit1">Debit Card</label></li>
-                  <li><input type="radio" name="gender" value="credit" id="credit1"> <label for="credit1">Credit Card</label></li>
-                  <li><input type="radio" name="gender" value="net" id="net1"><label for="net1">Net Banking</label></li>
-              </ul>
-            </div>
-
-        </div> -->
            <div class="payment-card-footer">
               <button class="btn add-to-card" id="amount-added">Pay</button>
           </div>
@@ -182,14 +167,14 @@
             <div class="add-product-section" id="payment-completed">
 
                 <div class="marchent-section">
-                    <div class="marchent-details">
-                        <div>Brillio</div>
-                        <div>Bell, Los Angeles County</div>
-                        <div>US - 90201</div>
-                    </div>
-                    <span class="starbucks">Amount</span>
-                    <div class="amount-text total-price"></div>
-                </div>
+            <div class="marchent-details">
+                <div class="marchent-name">Brillio</div>
+                <div class="address">Bell, Los Angeles County</div>
+                <div class="address">US - 90201</div>
+            </div>
+            <span class="starbucks">Purchase Total</span>
+            <div class="amount-text">$<input type="number" value="" placeholder="Enter Amount" id="amount" /> </div>
+        </div>
 
                 <div class="payment-section">
                     <div class="make-payment">
