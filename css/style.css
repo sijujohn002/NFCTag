@@ -14,12 +14,16 @@ html,body{
 }
 
 span.starbucks {
-    background-color: #fbbb0054;
-    border-radius: 14px;
+  background-color: #fbbb0054;
     color: #131312;
     font-size: 16px;
     padding: 4px 25px;
     font-weight: BOLD;
+    float: left;
+}
+.payment-left-div {
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .amount-text {
@@ -215,7 +219,10 @@ img.swip-mechine {
 
 .left-div {
     float: left;
-    width:75%;
+    width:100%;
+}
+sapn.qty-text{
+	float:left;
 }
 .box img {
     width: 40%;
@@ -232,19 +239,23 @@ img.swip-mechine {
     text-align: right;
 }
 .add-qty {
-    display: inline;
+  display: inline;
     border-radius: 20px;
     border: 1px solid gray;
-    padding: 7px 5px;
+    float: right;
+    padding: 0px;
+    text-align: center;
 }   
 
 button.qty {
-    color: #CE4400;
+      color: #CE4400;
     font-size: 25px;
-    padding: 8px;
     background-color: transparent;
     border: 0px;
     outline: none;
+    text-align: center;
+    margin: 0px;
+    width: 30px;
 } 
 .amount-text input {
     text-align: center;
