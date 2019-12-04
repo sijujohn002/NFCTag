@@ -219,9 +219,8 @@ img.swip-mechine {
     padding: 10px 15px;
 }
 
-.left-div {
-    float: left;
-    width:100%;
+.left-div1 {
+    float: right;
 }
 sapn.qty-text{
 	float:left;
@@ -322,4 +321,12 @@ input.form-control.year {
 .add-card-details label {
     width: 100%;
     float: left;
+}
+span.addition-amt-text {
+    font-size: 16px;
+    font-weight: normal;
+}
+span.qty-text {
+    float: right;
+    margin-right: 10px;
 }
