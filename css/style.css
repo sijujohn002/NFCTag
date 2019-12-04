@@ -272,6 +272,14 @@ span.without-amt-inp{
     margin-left: 15px;
     font-size: 18px;
 }
+.amount-text1 input {
+    text-align: center;
+    border: 0px;
+    width: 50%;
+    outline: none;
+    margin-left: 15px;
+    font-size: 18px;
+}
 .marchent-details {
     padding: 10px;
     float: left;
