@@ -330,7 +330,7 @@ span.qty-text {
     margin-right: 10px;
 }
 .font-size16{
-	font-size:16px;
+	font-size:16px !important;
 }
 .margin-top10{
 	margin-top:10px;
