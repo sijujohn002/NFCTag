@@ -48,7 +48,7 @@
         });
       
         $("#extrawithoutprice").bind('input', function() {
-          var extrawithoutprice = $('#extrawithoutprice').val();
+          var extrawithoutprice = $('#extrawithoutprice').val() || 0;
           var amount = $('#amount').val();
           $('.total-price-not').text("$ "+(parseInt(amount)+parseInt(extrawithoutprice))); 
           });
@@ -105,6 +105,10 @@
        
       
        
+
+       $('.marchent-name').text(jsondata.MN)
+       $('.address').text(jsondata.MA)
+       $('.address-city').text(jsondata.MCty+","+jsondata.MC+"-"+jsondata.MP)
       
        
       
