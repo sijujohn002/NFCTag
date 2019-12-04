@@ -17,13 +17,12 @@ html,body{
        float: left;
     width: 100%;
     text-align: center;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: bold;
 }
 span.starbucks {
-   color: #131312;
+     color: #131312;
     padding: 4px 0px;
-    font-size: 22px;
     font-weight: bold;
 }
 .payment-left-div { 
