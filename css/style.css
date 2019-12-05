@@ -347,3 +347,7 @@ span.qty-text {
 .margin-top10{
 	margin-top:10px;
 }
+.address-city {
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}

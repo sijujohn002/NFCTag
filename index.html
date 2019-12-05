@@ -24,7 +24,7 @@
                 </div>
 				
 				<div class="purchase-total font-size16">
-				<span class="starbucks">Item Price</span>
+				<span class="starbucks">Item Price (each):</span>
                 <span class="amount-text1 total-price without-amt-inp">$<input type="number" value="" placeholder="Enter Amount" id="amount" /> </span>
         </div>
         
@@ -112,25 +112,42 @@
                   </div>
                 </div>
 				<div class="purchase-total font-size16">
-				<span class="starbucks">Item Price :</span>
+				<span class="starbucks">Item Price (each) :</span>
                 <span class="amount-text value-price font-size22"></span>
         </div>
-        
+
+        <div class="qty-row">
+          <div class="left-div1"> 
+            <div class="add-qty">
+              <button class="qty">-</button><span id="unit">1</span><button class="qty">+</button> 
+            </div>
+        </div>
+        <span class="qty-text">QTY</span> 
+        </div>
+
+        <div class="purchase-total font-size16">
+          <span class="starbucks">Purchase Amount :</span>
+                  <span class="amount-text value-price font-size22">$90 </span>
+          </div>
+
         <div class="purchase-total">
           <span class="addition-amt-text">Enter Additional Amount/Gratuity
           </span>
                   <span class="amount-text1 without-amt-inp">$<input id="extrawithprice" type="number" value="" placeholder="Enter Amount"/> </span>
           </div>
 		  
-		   <div class="purchase-total margin-top10">
-				<span class="starbucks">Total Amount :</span>
-                <span class="amount-text total-price font-size22"></span>
-				</div>
+		   
 
             </div>
           
         
         <div class="payment-section" id="add-product">
+
+            <div class="purchase-total margin-top10">
+                <span class="starbucks">Total Amount :</span>
+                        <span class="amount-text total-price font-size22"></span>
+                </div>
+
             <div class="make-payment">
                 <div class="payment-left-div">
                  Items
@@ -145,16 +162,7 @@
                 </div>
                
     
-                  <div class="qty-row">
-                      <div class="left-div1"> 
-                        <div class="add-qty">
-                          <button class="qty">-</button><span id="unit">1</span><button class="qty">+</button> 
-                        </div>
-                    </div>
-
-                    <span class="qty-text">QTY</span> 
-                   
-                    </div>
+                 
              
                </div>
 
