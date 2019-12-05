@@ -217,6 +217,9 @@ img.swip-mechine {
     width: 100%;
     border-bottom: 1px solid #f3f2f2;
     padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .left-div1 {
@@ -348,6 +351,6 @@ span.qty-text {
 	margin-top:10px;
 }
 .address-city {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #525252;
     padding-bottom: 10px;
 }
