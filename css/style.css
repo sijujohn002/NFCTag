@@ -399,3 +399,7 @@ span.qty-text {
 .border0{
     border:0px;
 }
+.purchase-total.completed-amt {
+    border-bottom: 1px solid #3d3d3d;
+    padding: 20px 0px;
+}
