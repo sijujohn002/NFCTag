@@ -363,7 +363,7 @@ span.qty-text {
     float: left;
     padding-top: 10px;
     padding-right: 10px;
-    font-size: 16px;
+    font-size: 14px;
   
 }
 .purchase-amt-text {
@@ -421,5 +421,5 @@ span.qty-text {
 }
 .purchase-total.completed-amt {
     border-bottom: 1px solid #3d3d3d;
-    padding: 20px 0px;
+    padding: 0px 0px;
 }
