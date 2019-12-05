@@ -361,18 +361,20 @@ span.qty-text {
 }
 .additional-amt label {
     float: left;
-    width: 64%;
+    width: auto;
     text-align: left;
     font-size: 12px;
     padding-top: 6px;
+    display: inline;
 }
 
 .add-amt-inp {
-    float: right;
+    float: left;
     width: 36%;
     margin-top: 0px;
     border: 0px;
     padding: 3px;
+    margin-left: 5px;
 }
 .purchase-amt-text label {
     float: left;
