@@ -16,7 +16,7 @@ html,body{
     text-align: center;
     font-size: 16px;
     font-weight: bold;
-    padding-bottom: 5px;
+    padding: 10px 0px;
 }
 span.starbucks {
      color: #131312;
@@ -344,6 +344,7 @@ span.addition-amt-text {
 span.qty-text {
     float: right;
     margin-right: 10px;
+    font-size: 18px;
 }
 .font-size16{
 	font-size:16px !important;
@@ -362,6 +363,7 @@ span.qty-text {
     float: left;
     padding-top: 10px;
     padding-right: 10px;
+    font-size: 16px;
   
 }
 .purchase-amt-text {
@@ -374,9 +376,10 @@ span.qty-text {
     float: left;
     margin-top: 0px;
     border: 0px;
-    padding: 3px;
     margin-left: 5px;
-    width: 30%;
+    width: 35%;
+    height: 36px;
+    padding: 10px;
 }
 .purchase-amt-text label {
     float: left;
@@ -390,7 +393,14 @@ span.qty-text {
     margin-top: 8%;
 }
 
-.purchase-amt-inp {float: right;width: 39%;margin-top: 6px;border: 0px;padding: 3px;}
+.purchase-amt-inp {
+    float: right;
+    width: 40%;
+    margin-top: 6px;
+    border: 0px;
+    padding: 10px;
+    height: 36px;
+}
 .additional-amt {
     float: left;
     width: 100%;
@@ -401,6 +411,7 @@ span.qty-text {
     justify-content: center;
     align-items: center;
     margin-bottom: 5px;
+    margin-top:10px;
 }
 .completed-section{
     margin-top:20px;
