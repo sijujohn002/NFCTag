@@ -5,7 +5,7 @@ html,body{
 
 .marchent-section {
     text-align: center;
-    padding: 0px 20px;
+
     min-height: 40%;
     float: left;
     width: 100%;
@@ -35,7 +35,7 @@ span.starbucks {
     float: left;
     width: 100%;
     background-color: #fff;
-    border-radius: 16px 16px 0px 0px;
+    border-radius: 50px;
     position: relative;
     min-height: 55%;
     padding-bottom: 0px;
@@ -73,7 +73,7 @@ button.btn.proceed,.add-to-card{
     color: #FFFFFF;
     font-size: 22px;
     border-radius: 28px;
-    padding: 15px 100px;
+    padding: 10px 100px;
 }
 
 .completed-payment {
@@ -209,6 +209,7 @@ img.swip-mechine {
     overflow-y: auto;
     display: flex;
     flex-direction: column;
+    padding:0px 10px
 }
 .qty-row {
     float: left;
@@ -356,3 +357,25 @@ span.qty-text {
     border-bottom: 1px solid #525252;
     padding-bottom: 10px;
 }
+.additional-amt label {
+    float: left;
+    width: 60%;
+    text-align: left;
+}
+
+.add-amt-inp {
+    float: right;
+    width: 36%;
+    margin-top: 10px;
+    border: 0px;
+    padding: 3px;
+}
+.purchase-amt-text label {
+    float: left;
+    width: 60%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.purchase-amt-inp {float: right;width: 36%;margin-top: 6px;border: 0px;padding: 3px;}
