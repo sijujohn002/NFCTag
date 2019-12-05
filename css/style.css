@@ -384,6 +384,7 @@ span.qty-text {
     font-weight: bold;
     text-align: right;
     padding-right: 10px;
+    margin-bottom: 0px;
 }
 
 .purchase-amt-inp {float: right;width: 30%;margin-top: 6px;border: 0px;padding: 3px;}
