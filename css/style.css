@@ -379,3 +379,8 @@ span.qty-text {
 }
 
 .purchase-amt-inp {float: right;width: 36%;margin-top: 6px;border: 0px;padding: 3px;}
+.additional-amt {
+    float: left;
+    width: 100%;
+    padding-top: 10px;
+}
