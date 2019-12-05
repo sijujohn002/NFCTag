@@ -120,7 +120,7 @@
           $('#with-amount').show();
           $('#without-amount').hide();
           $('.value-price').text("$ "+priceInt); 
-          $('#singleItemPrice').text("$"+priceInt);
+          $('.singleItemPrice').text("$"+priceInt);
           $('.total-price').text("$ " +(priceInt))
         } 
               
