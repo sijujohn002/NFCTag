@@ -361,7 +361,6 @@ span.qty-text {
 .additional-amt label {
     float: left;
     padding-top: 10px;
-    padding-bottom: 10px;
     width: 70%;
   
 }
@@ -379,10 +378,10 @@ span.qty-text {
     width: 60%;
     font-size: 20px;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
 }
 
-.purchase-amt-inp {float: right;width: 36%;margin-top: 6px;border: 0px;padding: 3px;}
+.purchase-amt-inp {float: right;width: 30%;margin-top: 6px;border: 0px;padding: 3px;}
 .additional-amt {
     float: left;
     width: 100%;
