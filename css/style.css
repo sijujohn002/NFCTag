@@ -58,12 +58,12 @@ img.back-arrowy {
 }
 
 .payment-card-footer {
-    position: absolute;
     bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: normal;
     width: 100%;
+    padding-bottom: 15px;
 }
 
 button.btn.proceed,.add-to-card{
@@ -73,7 +73,7 @@ button.btn.proceed,.add-to-card{
     color: #FFFFFF;
     font-size: 22px;
     border-radius: 28px;
-    padding: 5px 60px;
+    padding: 15px 100px;
 }
 
 .completed-payment {
