@@ -386,6 +386,9 @@ span.qty-text {
     padding-right: 10px;
     margin-bottom: 0px;
 }
+.add-card img {
+    margin-top: 8%;
+}
 
 .purchase-amt-inp {float: right;width: 39%;margin-top: 6px;border: 0px;padding: 3px;}
 .additional-amt {
