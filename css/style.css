@@ -361,19 +361,19 @@ span.qty-text {
 }
 .additional-amt label {
     float: left;
-    width: 83%;
     padding-top: 10px;
     padding-bottom: 10px;
+    width: 70%;
   
 }
 
 .add-amt-inp {
     float: left;
-    width: 40%;
     margin-top: 0px;
     border: 0px;
     padding: 3px;
     margin-left: 5px;
+    width: 30%;
 }
 .purchase-amt-text label {
     float: left;
@@ -388,9 +388,10 @@ span.qty-text {
     float: left;
     width: 100%;
     padding-top: 0px;
-    border-bottom: 1px solid #aaa7a7;
-    padding-bottom: 1px;
+    border-bottom: 1px solid #3d3d3d;
+    padding-bottom: 10px;
     display: flex;
     justify-content: center;
-    align-items: CENTER;
+    align-items: center;
+    margin-bottom: 5px;
 }
