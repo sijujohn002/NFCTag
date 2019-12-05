@@ -51,7 +51,7 @@ span.starbucks {
     display: flex;
     padding: 2px 10px;
     justify-content: space-between;
-    border-top: 1px solid #232222;
+    border-top:1px solid #c5c5c5;
 }
 img.back-arrowy {
     margin-right: 20px;
