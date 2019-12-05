@@ -36,25 +36,25 @@
              $('#with-amount').hide();
              $('#payment-completed').show();
              
-             var extrawithoutprice = $('#extrawithoutprice').val();
-             var amount = $('#amount').val();
+             var extrawithoutprice = $('#extrawithoutprice').val()||0;
+             var amount = $('#amount').val()||0;
              $('.total-price').text("$ "+(parseInt(amount)+parseInt(extrawithoutprice))); 
          
       });
            
       $("#extrawithprice").bind('input', function() {
-        var extrawithprice = $('#extrawithprice').val();
+        var extrawithprice = $('#extrawithprice').val()||0;
         $('.total-price').text("$ " +((parseInt(unit)*parseInt(priceInt))+parseInt(extrawithprice)));
         });
       
         $("#extrawithoutprice").bind('input', function() {
           var extrawithoutprice = $('#extrawithoutprice').val() || 0;
-          var amount = $('#amount').val();
+          var amount = $('#amount').val()||0;
           $('.total-price-not').text("$ "+(parseInt(amount)+parseInt(extrawithoutprice))); 
           });
           $("#amount").bind('input', function() {
-            var extrawithoutprice = $('#extrawithoutprice').val();
-            var amount = $('#amount').val();
+            var extrawithoutprice = $('#extrawithoutprice').val()||0;
+            var amount = $('#amount').val()||0;
             if(parseInt(extrawithoutprice)>0)
             $('.total-price-not').text("$ "+(parseInt(amount)+parseInt(extrawithoutprice))); 
             else
