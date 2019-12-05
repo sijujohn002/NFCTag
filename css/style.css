@@ -365,8 +365,7 @@ span.qty-text {
     padding-top: 10px;
     border-bottom: 1px solid #aaa7a7;
     padding-bottom: 10px;
-    display: flex;
-    justify-content: center
+  
 }
 
 .add-amt-inp {
@@ -392,4 +391,6 @@ span.qty-text {
     padding-top: 10px;
     border-bottom: 1px solid #aaa7a7;
     padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
 }
