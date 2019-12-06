@@ -38,27 +38,28 @@
              
              var extrawithoutprice = $('#extrawithoutprice').val()||0;
              var amount = $('#amount').val()||0;
-             $('.total-price').text("$ "+(parseInt(amount)+parseInt(extrawithoutprice))); 
+             $('.total-price').text("$ "+(parseFloat(amount)+parseFloat(extrawithoutprice))); 
          
       });
            
       $("#extrawithprice").bind('input', function() {
         var extrawithprice = $('#extrawithprice').val()||0;
-        $('.total-price').text("$ " +((parseInt(unit)*parseInt(priceInt))+parseInt(extrawithprice)));
+        var price=parseFloat(extrawithprice)
+        $('.total-price').text("$ " +((parseInt(unit)*parseFloat(priceInt))+price));
         });
       
         $("#extrawithoutprice").bind('input', function() {
           var extrawithoutprice = $('#extrawithoutprice').val() || 0;
           var amount = $('#amount').val()||0;
-          $('.total-price-not').text("$ "+(parseInt(amount)+parseInt(extrawithoutprice))); 
+          $('.total-price-not').text("$ "+(parseFloat(amount)+parseFloat(extrawithoutprice))); 
           });
           $("#amount").bind('input', function() {
             var extrawithoutprice = $('#extrawithoutprice').val()||0;
             var amount = $('#amount').val()||0;
-            if(parseInt(extrawithoutprice)>0)
-            $('.total-price-not').text("$ "+(parseInt(amount)+parseInt(extrawithoutprice))); 
+            if(parseFloat(extrawithoutprice)>0)
+            $('.total-price-not').text("$ "+(parseFloat(amount)+parseFloat(extrawithoutprice))); 
             else
-            $('.total-price-not').text("$ "+(parseInt(amount))); 
+            $('.total-price-not').text("$ "+(parseFloat(amount))); 
             });
       
       var unit=1
@@ -76,10 +77,10 @@
                 var extrawithprice = $('#extrawithprice').val();
                 $('.value-price').text("$ " +(unit*priceInt)); 
        var extrawithprice = $('#extrawithprice').val();
-       if(parseInt(extrawithprice)>0)
-        $('.total-price').text("$ " +((parseInt(unit)*parseInt(priceInt))+parseInt(extrawithprice)));
+       if(parseFloat(extrawithprice)>0)
+        $('.total-price').text("$ " +((parseInt(unit)*parseFloat(priceInt))+parseFloat(extrawithprice)));
         else{
-          $('.total-price').text("$ " +((parseInt(unit)*parseInt(priceInt))));
+          $('.total-price').text("$ " +((parseInt(unit)*parseFloat(priceInt))));
         }
                 
        
@@ -97,7 +98,7 @@
        if(info){
            var jsondata=JSON.parse(info)
            if(jsondata.MTA){
-           var priceInt = parseInt(jsondata.MTA)
+           var priceInt = parseFloat(jsondata.MTA)
            if(priceInt>0)
            isPrice=true
          }  
