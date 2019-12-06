@@ -109,7 +109,7 @@
 
        $('.marchent-name').text(jsondata.MN)
        $('.address').text(jsondata.MA)
-       $('.address-city').text(jsondata.MCty+","+jsondata.MC+"-"+jsondata.MP)
+       $('.address-city').text(jsondata.MCty+", "+jsondata.MC+" -"+jsondata.MP)
       
        
       
