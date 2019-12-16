@@ -1,0 +1,15 @@
+{
+    "responsestatus" : "true",
+    "transactiondetail":
+    [
+        {
+            "accountid" : "A21TJRUUN4KGV",
+            "token" : "4XdA32P8mEqdophNhjSN-TXVTP8ByPr2LpJzTzj43KKTZkEttaSvyFpS3VO",
+            "brn" : "918255",
+            "message" : "",
+            "orderid" : "403-5941128",
+            "expiryinterval" : "15"
+        }
+    ]
+}
+
